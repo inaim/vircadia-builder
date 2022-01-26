@@ -138,7 +138,7 @@ my $appimagetool_release = 13;
 my $appimagetool_url = "https://github.com/AppImage/AppImageKit/releases/download/${appimagetool_release}/appimagetool-x86_64.AppImage";
 
 
-my @x11_lib_paths = ("/usr/lib64", "/usr/X11R6/lib64", "/usr/lib/x86_64-linux-gnu", "/usr/lib");
+my @x11_lib_paths = ("/usr/lib/aarch64-linux-gnu","/usr/lib64", "/usr/X11R6/lib64", "/usr/lib/x86_64-linux-gnu", "/usr/lib");
 my @system_qt_paths = ('/usr/lib64/cmake', '/usr/lib/x86_64-linux-gnu/cmake');
 
 # Amount of RAM needed to build Vircadia, per compiler process.
